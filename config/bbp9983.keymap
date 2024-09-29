@@ -51,11 +51,11 @@
         default_layer {
             bindings = <
 &mkp LCLK       &mkp RCLK
-&kp CLCK        &kp LGUI   &mkp LCLK  &mt ESC K_BACK  &kp TAB
-&mt HASH Q      &mt N1 W   &mt N2 E   &mt N3 R        &mt LEFT_PARENTHESIS T  &mt RIGHT_PARENTHESIS Y    &mt UNDER U      &mt MINUS I         &mt PLUS O           &mt PLUS P
-&mt ASTERISK A  &mt N4 S   &mt N5 D   &mt N6 F        &mt SLASH G             &mt COLON H                &mt SEMICOLON J  &mt SINGLE_QUOTE K  &mt DOUBLE_QUOTES L  &kp BSPC
-&kp LSHFT       &mt N7 Z   &mt N8 X   &mt N9 C        &mt QUESTION V          &mt EXCLAMATION B          &mt COMMA N      &mt PERIOD M        &kp SEMI             &kp ENTER
-                           &kp LCTRL                  &kp LALT                &kp SPACE                  &to SYM          &to UPPER
+&kp CLCK        &mt LGUI LA(TAB)  &mkp LCLK  &mt ESC K_BACK  &kp C_AC_HOME
+&mt HASH Q      &mt N1 W          &mt N2 E   &mt N3 R        &mt LEFT_PARENTHESIS T  &mt RIGHT_PARENTHESIS Y    &mt UNDER U      &mt MINUS I         &mt PLUS O           &mt PLUS P
+&mt ASTERISK A  &mt N4 S          &mt N5 D   &mt N6 F        &mt SLASH G             &mt COLON H                &mt SEMICOLON J  &mt SINGLE_QUOTE K  &mt DOUBLE_QUOTES L  &kp BSPC
+&kp LSHFT       &mt N7 Z          &mt N8 X   &mt N9 C        &mt QUESTION V          &mt EXCLAMATION B          &mt COMMA N      &mt PERIOD M        &kp SEMI             &kp ENTER
+                                  &kp LCTRL                  &kp LALT                &kp SPACE                  &to SYM          &to UPPER
             >;
         };
 
